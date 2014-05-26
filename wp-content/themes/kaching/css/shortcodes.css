@@ -1,0 +1,548 @@
+/* ---------------------------------------------------- */
+/* dropcap												*/
+/* ---------------------------------------------------- */
+
+.dropcap {
+	display: block; 
+	float: left;
+	font-size: 34px;
+	line-height: 1;
+	margin: 0 10px 0 0; 
+}
+
+/* ---------------------------------------------------- */
+/* pricing table										*/
+/* ---------------------------------------------------- */
+
+.pricing-table.col-2, .pricing-table.col-3, .pricing-table.col-4, .pricing-table.col-5{
+	width:920px;
+	margin:20px 0 30px 0;
+}
+
+.pricing-table.col-2 .plan{
+	float:left;
+	width:456px;
+	display: block;
+}
+.pricing-table.col-3 .plan{
+	float:left;
+	width:304px;
+	display: block;
+}
+.pricing-table.col-4 .plan{
+	float:left;
+	width:227px;
+	display: block;
+}
+.pricing-table.col-5 .plan{
+	float:left;
+	width:182px;
+	display: block;
+}
+
+.pricing-table .plan:first-child{
+	border-left:1px solid #e6e6e6 !important;
+}
+
+.plan{
+	text-align: center;
+	border-top:1px solid #e6e6e6;
+	border-right:1px solid #e6e6e6;
+	border-bottom:1px solid #e6e6e6;
+}
+
+.pricing-table .plan.featured{
+	background: #fbfbfb;
+	border:5px solid #e0e0e0;
+	margin-left:-5px;
+	margin-top:-4px;
+}
+
+.plan h3{
+	font-weight:600;
+	font-size:16px;
+	padding:20px 0 15px 0;
+	margin:0;
+}
+	.plan.featured h3{
+		font-size:16px;
+		color:#3B3C7C;
+	}
+
+.plan .price{
+	display:block;
+	font-size:54px;
+	line-height:38px;
+	font-weight:300;
+	padding:0px 0px 10px 0px;
+	border-bottom:1px solid #e6e6e6;
+}
+	.plan.featured .price{
+		color:#3B3C7C;
+	}
+
+.plan .price span{
+	display:block;
+	font-weight:400;
+	font-size:11px;
+	margin-top:0px;
+	color:#c0c0c0;
+}
+	.plan.featured .price span{
+	}
+
+.plan .signup{
+	padding:20px 0px;
+	text-align: center;
+	border-top:1px solid #f2f2f2;
+	border-bottom:5px solid #f6f6f6;
+}
+	.plan.featured .signup{
+		border-top:1px solid #f2f2f2;
+	}
+	.plan.featured .signup .button span{
+			border-color: #fbfbfb #fbfbfb #fbfbfb #ae5100;
+	}
+	.plan.featured .signup .button:hover span{
+			border-color: #fbfbfb #fbfbfb #fbfbfb #444444;
+	}
+	
+.plan ul{
+	margin:0 !important;
+	list-style: none !important;
+	padding:0 !important;
+	background: #ffffff;
+}
+.plan li{
+	font-size:12px;
+	padding:10px 0px; 
+	text-align: center;
+	background: url(../images/dotted.png) repeat-x bottom left;
+}
+.plan li:last-child{
+	background: none;
+}
+	
+
+/* ---------------------------------------------------- */
+/* accordion											*/
+/* ---------------------------------------------------- */
+
+.accordion {
+	border-bottom:1px solid #e8e8e8;
+}
+
+.accordion .title a{
+	font-size:15px;
+	font-weight:400;
+	color:#777777;
+	display: block;
+	border-top:1px solid #e8e8e8;
+	padding:15px 20px 15px 50px;
+	background: url(../images/add.gif) no-repeat 20px 20px;
+}
+
+.accordion .title a:hover {
+	color: #00c4e2;
+	background: #efefef;
+	background: url(../images/add.gif) no-repeat 20px 20px;
+}
+
+.accordion .title.active a {
+	color: #00c4e2;
+	background: url(../images/subtract.gif) no-repeat 20px 20px;
+
+}
+
+.accordion .inner {
+	margin-top:0px;
+	padding:0px 20px 20px 50px;
+}
+
+
+/* ---------------------------------------------------- */
+/* toggle												*/
+/* ---------------------------------------------------- */
+
+.toggle{
+	border:1px solid #e8e8e8;
+	margin-bottom:20px;
+}
+.toggle .title{
+	font-size:15px;
+	font-weight:700px;
+	color:#777777;
+	display: block;
+	padding:15px 20px 15px 50px;
+	background: url(../images/add.gif) no-repeat 20px 20px;
+	cursor: pointer;
+}
+.toggle .title:hover{
+	color:#00c4e2;
+	background: url(../images/add.gif) no-repeat 20px 20px;
+}
+.toggle .title.active{
+	color:#00c4e2;
+	background: url(../images/subtract.gif) no-repeat 20px 20px;
+}
+.toggle .inner{
+	display: none;
+}
+.toggle .inner div{
+	padding:20px 20px 20px 20px;
+    border-top: 1px dashed #e8e8e8;
+}
+
+/* ---------------------------------------------------- */
+/* tabs													*/
+/* ---------------------------------------------------- */
+
+ul.tabNavigation {
+	list-style: none;
+	margin: 0 0 -9px 0 !important;
+	padding: 0;
+	border-bottom:none !important;
+	overflow: hidden;
+}
+
+ul.tabNavigation li {
+    display: block;
+    float:left;
+    margin:0 !important;
+    padding:0;
+}
+
+ul.tabNavigation li a {
+	display: block;
+	padding:10px 20px;
+    float:left;
+    background-color: #f8f8f8;
+    text-decoration: none;
+    border:1px solid #d5d5d5;
+    margin-right:-1px;
+    color:#a6a6a6;
+}
+
+ul.tabNavigation li a.active{
+    background-color: #ffffff;
+    border-bottom:1px solid #ffffff;
+    border-top:1px solid #00c4e2;
+}
+
+ul.tabNavigation li a:hover {
+}
+
+ul.tabNavigation li a:focus {
+	outline: 0;
+}
+
+div.tabs div {
+	padding:20px;
+	margin:8px 0 0 0;
+	display: none;
+	border:1px solid #d5d5d5;
+	border-top:1px solid #d5d5d5;
+	background:#fff; 
+}
+
+div.tabs{
+	margin-bottom:20px;
+}
+
+/* ---------------------------------------------------- */
+/* alerts												*/
+/* ---------------------------------------------------- */
+
+.alert-message p{
+	margin:0 !important;
+}
+
+.alert-message{
+	display: block;
+	padding:10px 20px;
+	text-align: center;
+	color:#717171 !important;
+	margin-bottom:20px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px; 
+}
+.alert-message a{
+	display: block;
+	width:13px;
+	height:13px;
+	margin-top:4px;
+	float: right;
+	background: url(../images/close.png) no-repeat 0px 0px;
+	text-indent: -9999px;
+	opacity: 0.4;
+}
+.alert-message a:hover{
+	opacity: 0.8;
+}
+.alert-message.warning{
+	background: #fbf6e4;
+	border:1px solid #eed77d;
+	color:#c7a900 !important;
+}
+.alert-message.error{
+	background: #fee9e9;
+	border:1px solid #e8a0a0;
+	color:#d45959 !important;
+}
+.alert-message.success{
+	background: #e9f2d3;
+	border:1px solid #c0d86d;
+	color:#77a113 !important;
+}
+.alert-message.info{
+	background: #dce9f3;
+	border:1px solid #a0c2dc;
+	color:#387cb0 !important;
+}
+.alert-message.notice{
+	background: #ffffff;
+	border:1px solid #cccccc;
+	color:#999999 !important;
+}
+
+/* ---------------------------------------------------- */
+/* Icons */
+/* ---------------------------------------------------- */
+
+ul.list{
+	display:block;
+	margin: 0 0 20px 0;
+
+}
+
+ul.list li{
+	margin-left:16px;
+	padding:3px 0 3px 5px;
+	border-bottom:1px solid #f2f2f2;
+}
+
+ul.list li:last-child{
+	border-bottom: none;
+}
+
+/* ---------------------------------------------------- */
+
+.tficon{
+	display:block;
+}
+
+.tficon span{
+	display:inline-block;
+	text-align: center;
+	font-size:24px;
+	line-height:40px;
+	color:#5d5d5d;
+	margin-right:10px;
+	margin-bottom:-10px;
+}
+
+.tficon.circle span{
+	display:inline-block;
+	width:40px;
+	height:40px;
+	text-align: center;
+	font-size:24px;
+	line-height:40px;
+	border-radius: 50%;
+	margin-right:10px;
+	margin-bottom:-10px;
+	font-weight:normal !important;
+}
+
+.tficon.small span{
+	margin-right:8px;
+	width:20px;
+	height:20px;
+	font-size:12px;
+	line-height:20px;
+	font-weight:normal !important;
+}
+
+.tficon.small{
+	font-weight:600;
+	margin-bottom:5px;
+}
+
+.tficon.default{
+	margin-bottom:20px;
+}
+
+.tficon.large{
+	display:block;
+	margin-bottom:10px;
+	font-size:24px;
+	line-height:32px;
+	font-weight:300;
+	text-align: center;
+}
+
+.tficon.large span{
+	display:block;
+	margin:0 auto 10px auto;
+	width:100px;
+	height:100px;
+	font-size:64px;
+	line-height:100px;
+	font-weight:normal !important;
+}
+
+/* ---------------------------------------------------- */
+/* Video	*/
+/* ---------------------------------------------------- */
+
+.video-embed .iframe{
+	border: 0px solid #f5f5f5;
+}
+
+/* ---------------------------------------------------- */
+/* Column Layout										*/
+/* ---------------------------------------------------- */
+
+#content-part .one_half{ width:325px; }
+#content-part .one_third{ width:210px; }
+#content-part .two_third{ width:440px; }
+#content-part .one_fourth{ width:152px; }
+#content-part .three_fourth{ width:498px; }
+#content-part .one_fifth{ width:118px; }
+#content-part .two_fifth{ width:172px; }
+#content-part .three_fifth{ width:172px; }
+#content-part .four_fifth{ width:172px; }
+
+.last{ 
+	margin-right:0 !important; 
+	clear:right;
+}
+
+/* ---------------------------------------------------- */
+/* Buttons												*/
+/* ---------------------------------------------------- */
+
+.generic .button, .button.generic {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 11px;
+  font-weight:600;
+  position: relative;
+  background-color: #00c4e2;
+  background-repeat: no-repeat;
+  background-image: -moz-linear-gradient(top, transparent, rgba(0, 0, 0, 0.2));
+  background-image: -ms-linear-gradient(top, transparent, rgba(0, 0, 0, 0.2));
+  background-image: -o-linear-gradient(top, transparent, rgba(0, 0, 0, 0.2));
+  background-image: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.2));
+  background-image: linear-gradient(top, transparent, rgba(0, 0, 0, 0.2));
+  color:#ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  -ms-box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 1px 1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 1px 1px rgba(0, 0, 0, 0.3); 
+  -o-box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 1px 1px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 1px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 1px 1px rgba(0, 0, 0, 0.3);
+  padding: 11px 19px 12px 19px;
+  text-shadow: rgba(0, 0, 0, 0.2) 0px -1px 0px;
+  line-height: normal;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: 0.1s linear all;
+  -moz-transition: 0.1s linear all;
+  -ms-transition: 0.1s linear all;
+  -o-transition: 0.1s linear all;
+  transition: 0.1s linear all;
+  margin: 0 8px 13px 0;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.generic .button:hover, .button.generic:hover {
+  background-color:#666666;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* ---------------------------------------------------- */
+/* Button Sizes & Align									*/
+
+.generic .button.large, .button.generic.large {
+  font-size: 15px;
+  padding:10px 15px;
+  line-height: normal;
+}
+
+.generic .button.small, .button.generic.small  {
+  font-size: 11px;
+  padding:5px 10px;
+}
+
+.generic .button.left, .button.generic.left	{
+	float: left;
+	margin-right: 10px !important;
+}
+
+.generic .button.right, .button.generic.right	{
+	float: right;
+	margin-left: 10px !important;
+}
+
+.button[class^="icon-"], .button[class*=" icon-"] {
+  /* keeps button heights with and without icons the same */
+  text-indent: 1.4em;
+}
+.button[class^="icon-"]:before, .button[class*=" icon-"]:before {
+  text-indent: -1.8em;
+  text-align: center;
+}
+
+li [class^="icon-"], li [class*=" icon-"] {
+  display: inline-block;
+  width: 1.25em;
+  text-align: center;
+}
+
+/* ---------------------------------------------------- */
+/* Dividers												*/
+/* ---------------------------------------------------- */
+
+.hr{
+    border: 0;
+    border-bottom: 1px dashed #EFEFEF;
+    background: #E4E1E1;
+	margin:40px 0px 40px 0px;
+	clear: both;
+}
+
+.hr2{
+	border-bottom:1px solid #dedede;
+	height:0px;
+	margin:40px 0 40px 0;
+	clear: both;
+}
+.hr3{
+	margin:40px 0 40px 0;
+	background: url(../images/shadow.png) no-repeat top center;
+	clear: both;
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+}
+
+/* ---------------------------------------------------- */
+/* Responsive Images									*/
+/* ---------------------------------------------------- */
+
+img.responsive{
+	max-width:100%;
+}
+
+
+/* ---------------------------------------------------- */
+/* End of Shortcodes									*/
+/* ---------------------------------------------------- */

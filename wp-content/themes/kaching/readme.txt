@@ -1,0 +1,1 @@
+Detailed theme documentation can be found in the DOCS folder that comes with this theme
